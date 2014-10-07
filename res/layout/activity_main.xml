@@ -1,0 +1,118 @@
+<com.stevebergamini.expandingscrolltest.AdjustingScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/adjustingScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="500dp" >
+
+        <FrameLayout
+            android:id="@+id/frame1"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:background="@color/blue" >
+            
+             <TextView
+                 android:id="@+id/textView1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:text="@string/pane_1_title"
+                 android:textSize="16sp" />
+            
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:layout_gravity="center"
+            android:background="@color/red" >
+            
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:text="@string/pane_2_title"
+                 android:textSize="16sp" />
+            
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:layout_gravity="center"
+            android:background="@color/yellow" >
+            
+             <TextView
+                 android:id="@+id/textView3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:text="@string/pane_3_title"
+                 android:textSize="16sp" />
+            
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:layout_gravity="center"
+            android:background="@color/green" >
+            
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:text="@string/pane_4_title"
+                 android:textSize="16sp" />
+            
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:layout_gravity="center"
+            android:background="@color/purple" >
+            
+             <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:text="@string/pane_5_title"
+                 android:textSize="16sp" />
+            
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/frame6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:layout_gravity="center"
+            android:background="@color/teal" >
+            
+             <TextView
+                 android:id="@+id/textView6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:text="@string/pane_6_title"
+                 android:textSize="16sp" />
+            
+        </FrameLayout>
+        
+    </LinearLayout>
+
+</com.stevebergamini.expandingscrolltest.AdjustingScrollView>
